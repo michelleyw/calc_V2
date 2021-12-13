@@ -1,0 +1,20 @@
+[package]
+name = "calc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+doc = false
+name = "calc"
+
+[build-dependencies]
+cfgrammar = "0.11.0"
+lrlex = "0.11.0"
+lrpar = "0.11.0"
+
+[dependencies]
+cfgrammar = "0.11.0"
+lrlex = "0.11.0"
+lrpar = "0.11.0"
